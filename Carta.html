@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Una carta para ti — Laura</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+
+<div class="progress-track">
+  <div class="progress-fill" id="progress-fill"></div>
+</div>
+
+<div class="step-dots" id="step-dots"></div>
+
+<div class="stage" id="stage">
+
+  <section class="chapter active" data-chapter="0">
+    <p class="ch-eyebrow">I &middot; El principio</p>
+
+    <div class="photo-frame" onclick="nextChapter()">
+      <img src="img/Inicio.jpg" alt="Laura y Johnson">
+    </div>
+
+    <p class="tap-hint">
+      Continuar
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#c9898a" stroke-width="1.8" stroke-linecap="round">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </p>
+
+    <div class="ch-line"></div>
+
+    <div class="ch-text-wrap">
+      <p class="ch-label">Laura,</p>
+      <p class="ch-body">
+       Hoy, pensando en todo lo que hemos vivido desde aquella tarde en la que me anime a saludarte. No puedo evitar sonreír. <br>
+       Porque lo que empezó como una simple conexión espontanea, se convirtió en un lugar calido y acogedor para los dos. <br>
+
+       Seis meses después, sigo eligiéndote. No por costumbre, sino porque en ti encontré algo real, algo que vale la pena cuidar todos los días. A pesar de la distancia, de los momentos difíciles o de lo incierto que pueda ser el futuro, lo único que tengo claro es que quiero seguir construyendo esto contigo. 
+       Quiero más días contigo, más películas por discord, más llamadas, más besos y abrazos pendientes… más de nosotros. Amo pensar en nostoros.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ════ CAPÍTULO 2 ════ -->
+  <section class="chapter" data-chapter="1">
+    <p class="ch-eyebrow">II &middot; Tenerte </p>
+    <div class="photo-frame" onclick="nextChapter()">
+      <img src="img/2.jpeg" alt="Laura y Johnson">
+      <div class="photo-placeholder">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#c9898a" stroke-width="1.2" stroke-linecap="round">
+          <rect x="3" y="3" width="18" height="18" rx="3"/>
+          <circle cx="8.5" cy="8.5" r="1.5"/>
+          <polyline points="21 15 16 10 5 21"/>
+        </svg>
+        <span>foto 2</span>
+      </div>
+    </div>
+
+    <p class="tap-hint">
+      Continuar
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#c9898a" stroke-width="1.8" stroke-linecap="round">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </p>
+
+    <div class="ch-line"></div>
+
+    <div class="ch-text-wrap">
+      <p class="ch-label"> Tenerte en mi vida</p>
+      <p class="ch-body">
+      Todos los días, al despertar, pienso en lo afortunado que soy de tenerte en mi vida.
+      No solo por tu amor, sino por todo lo que estamos construyendo juntos, paso a paso.
+
+     Contigo quiero ser mejor, no por obligación, sino porque me nace. Mejor persona, mejor hombre, mejor para ti.
+
+     Eres una luz en mi vida… de esas que no encandilan, sino que guían.
+    De esas que hacen que todo tenga más sentido.
+
+    Eres como ese primer rayo de sol de la mañana, el que no avisa pero llega,
+    y con solo estar ahí, hace que todo comience de nuevo.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ════ CAPÍTULO 3 ════ -->
+  <section class="chapter" data-chapter="2">
+    <p class="ch-eyebrow">III &middot; TE AMO </p>
+
+    <div class="photo-frame" onclick="nextChapter()">
+    <img src="img/4.jpeg" alt="Laura y Johnson">
+      <div class="photo-placeholder">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#c9898a" stroke-width="1.2" stroke-linecap="round">
+          <rect x="3" y="3" width="18" height="18" rx="3"/>
+          <circle cx="8.5" cy="8.5" r="1.5"/>
+          <polyline points="21 15 16 10 5 21"/>
+        </svg>
+        <span>foto 3</span>
+      </div>
+    </div>
+
+    <p class="tap-hint">
+      Continuar
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#c9898a" stroke-width="1.8" stroke-linecap="round">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </p>
+
+    <div class="ch-line"></div>
+
+    <div class="ch-text-wrap">
+      <p class="ch-label"> Te amo gordis ♥ </p>
+      <p class="ch-body">
+      Hoy quiero decirte que te amo, que te adoro y te anhelo. Nunca he tenido muchas cosas claras en mi vida como lo es amarte. 
+      Te amo por quién eres, te amo por lo que representas, te amo por tu dedicación, te amo por tu gentileza, te amo por tus emociones,
+      te amo por tu vulnerabilidad, por tu fortaleza. Amo cada parte de ti y amo que compartas cada una de ellas conmigo. ♥   
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ════ CAPÍTULO 4 — Final ════ -->
+  <section class="chapter" data-chapter="3">
+    <p class="ch-eyebrow">IV &middot; Seis meses</p>
+
+    <div class="photo-frame no-click">
+      <img src="img/1.jpeg" alt="Laura y Johnson">
+      <div class="photo-placeholder">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#c9898a" stroke-width="1.2" stroke-linecap="round">
+          <rect x="3" y="3" width="18" height="18" rx="3"/>
+          <circle cx="8.5" cy="8.5" r="1.5"/>
+          <polyline points="21 15 16 10 5 21"/>
+        </svg>
+        <span>foto 4</span>
+      </div>
+    </div>
+
+    <div class="ch-line"></div>
+
+    <div class="ch-text-wrap">
+      <p class="ch-label">Para siempre —</p>
+      <p class="ch-body">
+        Seis meses a veces me parecen poco, hasta que recuerdo todo lo que hemos vivido para llegar hasta aquí.
+        Cada cita, cada llamada, cada conversación, cada risa, cada emoción días antes y después de vernos. 
+
+        Quiero seguir sumando momentos y memorias contigo. Nuevas metas, nuevos planes, todo en lo que estés incluida tú. 
+        TE AMOOOOOOOOO mi cotita linda!
+      </p>
+    </div>
+
+    <div class="final-sign">
+      <p class="final-label">Att;
+        Johnson Jerez </p>
+      <p class="final-name">Futuro esposo y padre de tus hijos.</p>
+    </div>
+
+    <div class="petals">
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+    </div>
+
+    <a class="back-link" href="Index.html">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <polyline points="15 18 9 12 15 6"/>
+      </svg>
+      volver al inicio
+    </a>
+  </section>
+
+</div><!-- /stage -->
+
+<script>
+  const chapters = document.querySelectorAll('.chapter');
+  const total    = chapters.length;
+  let   current  = 0;
+
+  /* Crear dots */
+  const dotsWrap = document.getElementById('step-dots');
+  for (let i = 0; i < total; i++) {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    dotsWrap.appendChild(d);
+  }
+
+  function updateUI() {
+    dotsWrap.querySelectorAll('.dot').forEach((d, i) =>
+      d.classList.toggle('active', i === current)
+    );
+    document.getElementById('progress-fill').style.width =
+      ((current + 1) / total * 100) + '%';
+  }
+
+  function nextChapter() {
+    if (current >= total - 1) return;
+
+    chapters[current].classList.remove('active');
+    current++;
+
+    const next     = chapters[current];
+    const animated = next.querySelectorAll(
+      '.ch-eyebrow, .photo-frame, .tap-hint, .ch-line, ' +
+      '.ch-text-wrap, .final-sign, .petals, .back-link'
+    );
+    animated.forEach(el => {
+      el.style.animation = 'none';
+      el.offsetHeight; /* force reflow */
+      el.style.animation = '';
+    });
+
+    next.classList.add('active');
+    updateUI();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  updateUI();
+</script>
+</body>
+</html>
